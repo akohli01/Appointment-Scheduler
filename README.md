@@ -1,7 +1,7 @@
 
 **Scheduling Application**
 
-This is simple scheduling application that allows you to perform CRUD operations on appointments and customers. This application was written in Java and uses the JavaFx framework.
+This is simple scheduling application that allows you to perform CRUD operations on appointments and customers. In addition, reporting features are included in this application. This application was written in Java and uses the JavaFx framework.
 In addition, this project follows the Model-View-Controller design.
 
 **Getting Started**
