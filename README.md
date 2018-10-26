@@ -1,48 +1,48 @@
-C195 - Scheduling Application
-Created by Amit Kohli
 
-----Rubric Breakdown----
+Scheduling Application
 
-Login in Form:
+This is simple scheduling application that allows you to perform CRUD operations on appointments and customers. This application was written in Java and uses the JavaFx framework.
+In addition, this project follows the Model-View-Controller design.
 
-Username: test
-Password: test
+Getting Started
 
-Languages supported:
-English and French
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-Customer Records:
-No information
+Prerequisites
 
-Appointments:
-Added feature to view detailed appointment information by double clicking a row in the appointment table view
+At least Java SDK 8 (JDK 11 will require the Open JavaFX 11 SDK)
+An Integrated Development Environment
 
-Calendar Views:
-This application allows you to switch among views using radiobuttons.
+Testing
 
-Time Zones:
-The application will adjust appointment times based upon the system timezone (Note: changes will reflected once the user closes
-the application, changes the system timezone, and then logs in again)
+This project includes a runnable jar file that can be used to quickly run the current state of the application. The location of this jar file is in out/artifacts/Scheduling_Application/Scheduling_Application.jar
+This jar can be run through the command prompt opened in that location by typing "java -jar Scheduling_Application.jar" without the quotes. In addition, there is an Scheduling Application.exe file in the out/artifacts/Scheduling_Application/bundles/Scheduling Application
+folder that can be used on Windows operating systems.
 
-Exception Control:
-Different mechanisms of exception control used in this program include try-catch for database operations, try-with-resources
-for the report .txt files, and throws clause in the method header for some methods.
+If you would like to modify the source files, the project structure is as follows...
 
-Lambda Expressions:
-A lot of lambda expressions have been used in this application (used in place of anonymous inner classes). Some examples are the listeners
-for the ObservableLists that store the appointment and customer objects. Another place lambdas have been used are in the different views
-(weekly and monthly) for the appointments.
+The src/application directory contains all the java package(s) mentioned below:
 
-Alerts:
-Whenever a user logs in, there will be check that takes place to see if there are any appointments that start within fifteen minutes
+controller: this package contains all the controllers for the different fxml views
+dbconnectivity: this package facilitates database connectivity
+main: this package contains the starting point for the application
+model: this package contains the business objects
+resource: this package contains properties files
+utility: this package contains "helper" classes
+view: this package contains all the fxml views 
 
-Reports:
-Each report will generate a .txt file in the project directory with an appropriate name for that report.
+Contributing
 
-Activity Log:
-Whenever the user logs in, a file titled loginTimestamps.txt will either be created with the current timestamp added, or if exists the
-file will append the timestamp
+Currently just me.
 
-Professional Communication:
-No information
+License
 
+Standard Github license. Feel free to view and fork this project for personal use.
+
+About Me
+
+My name is Amit Kohli, and I am currently a student at Western Governor's University. I am pursuing a Bachelor's in Science in Software Development. I welcome any feedback about any modifications that can be done to optimize this application.
+
+Contact
+
+amitkohli.official@gmail.com

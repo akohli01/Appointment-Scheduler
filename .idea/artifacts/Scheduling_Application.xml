@@ -16,6 +16,7 @@
       <element id="archive" name="Scheduling_Application.jar">
         <element id="module-output" name="Scheduling Application" />
       </element>
+      <element id="file-copy" path="$PROJECT_DIR$/resources/mysql-connector-java-5.1.45-bin.jar" />
     </root>
   </artifact>
 </component>
