@@ -26,7 +26,7 @@ The src/application directory contains all the java package(s) mentioned below:
 controller: this package contains all the controllers for the different fxml views  
 dbconnectivity: this package facilitates database connectivity  
 main: this package contains the starting point for the application  
-model: this package contains the business objects 
+model: this package contains the business objects   
 resource: this package contains properties files  
 utility: this package contains "helper" classes  
 view: this package contains all the fxml views  
