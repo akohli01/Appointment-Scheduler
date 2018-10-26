@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="633.0" prefWidth="1002.0" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.TabsController">
+   <children>
+      <TabPane layoutX="-33.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="633.0" prefWidth="990.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <tabs>
+            <Tab style="-fx-focus-color: transparent;" text="Appointments">
+               <content>
+                  <fx:include source="AppointmentTab.fxml" />
+               </content>
+            </Tab>
+            <Tab style="-fx-focus-color: transparent;" text="Customers">
+               <content>
+                  <fx:include source="CustomerTab.fxml" />
+               </content>
+            </Tab>
+            <Tab style="-fx-focus-color: transparent;" text="Reports">
+              <content>
+                  <fx:include source="ReportTab.fxml" />
+               </content>
+            </Tab>
+         </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

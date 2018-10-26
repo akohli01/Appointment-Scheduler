@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="733.0" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ReportController">
+   <children>
+      <Button layoutX="17.0" layoutY="65.0" mnemonicParsing="false" onMouseClicked="#generateAppointmentTypesReport" prefHeight="26.0" prefWidth="338.0" text="Generate Appointment Types per Month Report" />
+      <Button layoutX="14.0" layoutY="187.0" mnemonicParsing="false" onMouseClicked="#generateConsultantScheduleReport" prefHeight="26.0" prefWidth="338.0" text="Generate Schedule for Consultant Report" />
+      <Button layoutX="17.0" layoutY="314.0" mnemonicParsing="false" onMouseClicked="#generateCustomersPerCityReport" prefHeight="26.0" prefWidth="331.0" text="Generate Customer per City Report" />
+      <Label fx:id="appointmentTypesLabel" layoutX="428.0" layoutY="69.0" opacity="0.0" prefHeight="18.0" prefWidth="378.0" text="Appointment Types per Month Report generated" />
+      <Label fx:id="consultantScheduleLabel" layoutX="459.0" layoutY="191.0" opacity="0.0" prefHeight="18.0" prefWidth="348.0" text="Schedule for each consultant report generated" />
+      <Label fx:id="customerPerCityLabel" layoutX="459.0" layoutY="318.0" opacity="0.0" prefHeight="18.0" prefWidth="348.0" text="Customer per City report generated" />
+   </children>
+</AnchorPane>
