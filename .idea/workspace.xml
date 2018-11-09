@@ -7,34 +7,259 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b016efb5-6cd8-4016-8e7e-2e4cdcf75550" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/controller/AppointmentCRUDController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/controller/CustomerCRUDController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/app/loginTimestamps.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/app/loginTimestamps.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scheduling Application/application/controller/AddAppointmentController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scheduling Application/application/controller/AddAppointmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scheduling Application/application/controller/AddAppointmentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scheduling Application/application/controller/AppointmentTabController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scheduling Application/application/controller/AppointmentTabController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scheduling Application/application/controller/AppointmentTabController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scheduling Application/application/controller/CustomerTabController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scheduling Application/application/controller/CustomerTabController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scheduling Application/application/controller/CustomerTabController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scheduling Application/application/controller/CustomerTabController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scheduling Application/application/controller/UpdateAppointmentController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scheduling Application/application/controller/UpdateAppointmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scheduling Application/application/controller/UpdateAppointmentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scheduling Application/application/utility/CustomerListHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scheduling Application/application/utility/CustomerListHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scheduling Application/application/utility/SceneHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scheduling Application/application/utility/SceneHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/controller/AddAppointmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/controller/AddAppointmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/controller/AddCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/controller/AddCustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/controller/AppointmentTabController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/controller/AppointmentTabController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/controller/CustomerTabController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/controller/CustomerTabController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/controller/UpdateAppointmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/controller/UpdateAppointmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/controller/UpdateCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/controller/UpdateCustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/utility/CustomerListHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/utility/CustomerListHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/utility/SceneHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/utility/SceneHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/view/AddAppointment.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/view/AddAppointment.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/view/AddCustomer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/view/AddCustomer.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/view/UpdateAppointment.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/view/UpdateAppointment.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/view/UpdateCustomer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/view/UpdateCustomer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/Scheduling_Application.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/Scheduling_Application.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/Scheduling_Application.jnlp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/Scheduling Application.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/Scheduling Application.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-core-console-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-core-datetime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-core-debug-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-core-errorhandling-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-core-file-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-core-file-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-core-file-l2-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-core-handle-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-core-heap-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-core-interlocked-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-core-libraryloader-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-core-localization-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-core-memory-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-core-namedpipe-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-core-processenvironment-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-core-processthreads-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-core-processthreads-l1-1-1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-core-profile-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-core-rtlsupport-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-core-string-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-core-synch-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-core-synch-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-core-sysinfo-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-core-timezone-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-core-util-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-crt-conio-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-crt-convert-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-crt-environment-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-crt-filesystem-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-crt-heap-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-crt-locale-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-crt-math-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-crt-multibyte-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-crt-private-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-crt-process-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-crt-runtime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-crt-stdio-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-crt-string-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-crt-time-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/api-ms-win-crt-utility-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/app/AppointmentTypesPerMonthReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/app/Scheduling Application.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/app/Scheduling_Application.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/app/loginTimestamps.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/app/mysql-connector-java-5.1.45-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/msvcp140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/msvcr100.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/packager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/COPYRIGHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/THIRDPARTYLICENSEREADME-JAVAFX.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/THIRDPARTYLICENSEREADME.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/Welcome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/JAWTAccessBridge-64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/JavaAccessBridge-64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/WindowsAccessBridge-64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-core-console-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-core-datetime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-core-debug-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-core-errorhandling-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-core-file-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-core-file-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-core-file-l2-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-core-handle-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-core-heap-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-core-interlocked-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-core-libraryloader-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-core-localization-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-core-memory-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-core-namedpipe-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-core-processenvironment-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-core-processthreads-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-core-processthreads-l1-1-1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-core-profile-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-core-rtlsupport-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-core-string-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-core-synch-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-core-synch-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-core-sysinfo-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-core-timezone-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-core-util-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-crt-conio-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-crt-convert-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-crt-environment-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-crt-filesystem-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-crt-heap-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-crt-locale-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-crt-math-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-crt-multibyte-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-crt-private-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-crt-process-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-crt-runtime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-crt-stdio-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-crt-string-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-crt-time-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/api-ms-win-crt-utility-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/attach.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/awt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/bci.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/concrt140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/dcpr.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/decora_sse.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/deploy.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/dt_shmem.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/dt_socket.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/fontmanager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/fxplugins.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/glass.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/glib-lite.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/gstreamer-lite.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/hprof.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/instrument.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/j2pcsc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/j2pkcs11.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/jaas_nt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/java.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/java_crw_demo.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/javafx_font.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/javafx_font_t2k.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/javafx_iio.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/jawt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/jdwp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/jfr.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/jfxmedia.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/jfxwebkit.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/jli.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/jpeg.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/jsdt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/jsound.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/jsoundds.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/kcms.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/lcms.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/management.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/mlib_image.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/msvcp140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/msvcr100.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/nio.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/npt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/plugin2/msvcr100.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/plugin2/npjp2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/prism_common.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/prism_d3d.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/prism_sw.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/resource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/sawindbg.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/server/Xusage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/server/classes.jsa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/server/jvm.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/splashscreen.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/sunec.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/sunmscapi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/t2k.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/ucrtbase.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/unpack.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/vcruntime140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/verify.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/w2k_lsa_auth.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/bin/zip.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/accessibility.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/amd64/jvm.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/calendars.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/charsets.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/classlist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/cmm/CIEXYZ.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/cmm/GRAY.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/cmm/LINEAR_RGB.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/cmm/PYCC.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/cmm/sRGB.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/content-types.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/currency.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/ext/access-bridge-64.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/ext/cldrdata.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/ext/dnsns.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/ext/jaccess.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/ext/jfxrt.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/ext/localedata.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/ext/meta-index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/ext/nashorn.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/ext/sunec.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/ext/sunjce_provider.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/ext/sunmscapi.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/ext/sunpkcs11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/ext/zipfs.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/flavormap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/fontconfig.bfc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/fontconfig.properties.src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/fonts/LucidaBrightDemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/fonts/LucidaBrightDemiItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/fonts/LucidaBrightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/fonts/LucidaBrightRegular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/fonts/LucidaSansDemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/fonts/LucidaSansRegular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/fonts/LucidaTypewriterBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/fonts/LucidaTypewriterRegular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/hijrah-config-umalqura.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/images/cursors/cursors.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/images/cursors/invalid32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/images/cursors/win32_CopyDrop32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/images/cursors/win32_CopyNoDrop32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/images/cursors/win32_LinkDrop32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/images/cursors/win32_LinkNoDrop32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/images/cursors/win32_MoveDrop32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/images/cursors/win32_MoveNoDrop32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/javafx.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/javaws.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/jce.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/jfr.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/jfr/default.jfc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/jfr/profile.jfc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/jfxswt.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/jsse.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/jvm.hprof.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/management-agent.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/management/jmxremote.access" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/management/jmxremote.password.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/management/management.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/management/snmp.acl.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/meta-index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/net.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/plugin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/psfont.properties.ja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/psfontj2d.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/resources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/rt.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/security/blacklist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/security/blacklisted.certs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/security/cacerts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/security/java.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/security/java.security" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/security/javaws.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/security/policy/limited/US_export_policy.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/security/policy/limited/local_policy.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/security/policy/unlimited/US_export_policy.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/security/policy/unlimited/local_policy.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/security/trusted.libraries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/sound.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/tzdb.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/runtime/lib/tzmappings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/ucrtbase.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling Application/vcruntime140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling_Application.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling_Application.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/Scheduling_Application.jnlp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/bundles/mysql-connector-java-5.1.45-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Scheduling_Application/mysql-connector-java-5.1.45-bin.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,75 +346,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/controller/UpdateCustomerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/controller/CustomerCRUDController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/controller/AppointmentCRUDController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4084">
-              <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/view/AddAppointment.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/view/AddCustomer.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/view/UpdateAppointment.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/application/view/UpdateCustomer.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            <state relative-caret-position="357">
+              <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -242,7 +403,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1941" />
@@ -309,7 +470,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="scheduling_application" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541786568028" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541787277516" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="MySQL&#10;GenericSQL&#10;ClickHouse" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/application/controller" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -367,12 +528,12 @@
       <workItem from="1538176689243" duration="120000" />
       <workItem from="1540575463444" duration="4246000" />
       <workItem from="1540850935018" duration="3646000" />
-      <workItem from="1541781710168" duration="4848000" />
+      <workItem from="1541781710168" duration="5560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13517000" />
+    <option name="totallyTimeSpent" value="14229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1390" height="747" extended-state="6" />
@@ -387,7 +548,37 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.09656301" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.01309329" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.01309329" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.0022522523" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2394895" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.09656301" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.01309329" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -406,7 +597,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" visible="true" weight="0.0022522523" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -542,33 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/controller/UpdateCustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/controller/CustomerCRUDController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/controller/AppointmentCRUDController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4084">
-          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/application/view/AddAppointment.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
@@ -596,8 +760,35 @@
     <entry file="file://$PROJECT_DIR$/src/application/view/UpdateCustomer.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="306">
+          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/controller/AppointmentCRUDController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4084">
+          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/controller/CustomerCRUDController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/controller/UpdateCustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
