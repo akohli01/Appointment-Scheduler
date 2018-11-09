@@ -21,12 +21,12 @@ public class SceneHandler {
     private double xOffset = 0;
     private double yOffset = 0;
 
-    public SceneHandler(String fxmlDocument, Stage primaryStage) throws IOException {
+    public SceneHandler(String fxmlDocument, Stage primaryStage){
         this.primaryStage = primaryStage;
         loader = new FXMLLoader(getClass().getResource(fxmlDocument));
     }
 
-    public SceneHandler(String fxmlDocument, Stage primaryStage, ResourceBundle bundle) throws IOException {
+    public SceneHandler(String fxmlDocument, Stage primaryStage, ResourceBundle bundle){
         this.primaryStage = primaryStage;
         loader = new FXMLLoader(getClass().getResource(fxmlDocument), bundle);
     }
@@ -106,12 +106,12 @@ public class SceneHandler {
     }
 
     //Get the menu loader (used if further manipulation is needed concerning the menu bar)
-    public FXMLLoader getMenuLoader() throws IOException {
+    public FXMLLoader getMenuLoader() {
         return menuLoader;
     }
 
     //Get the loader for the particular scene (used if further manipulation is needed concerning the menu bar)
-    public FXMLLoader getSceneLoader() throws IOException {
+    public FXMLLoader getSceneLoader() {
         return loader;
     }
 

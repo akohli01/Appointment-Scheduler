@@ -17,37 +17,7 @@ import javafx.stage.Stage;
  *
  * @author Home
  */
-public class AddCustomerController {
-
-    @FXML
-    private TextField name;
-    @FXML
-    private TextField address;
-    @FXML
-    private TextField address2;
-    @FXML
-    private TextField postalCode;
-    @FXML
-    private TextField phone;
-    @FXML
-    private TextField city;
-    @FXML
-    private TextField country;
-    @FXML
-    private GridPane addCustomerPane;
-
-    private final ReadOnlyObjectWrapper<Customer> customer = new ReadOnlyObjectWrapper<>();
-
-    //Gets the customer object
-    public ReadOnlyObjectProperty<Customer> addedCustomer() {
-        return customer.getReadOnlyProperty();
-    }
-    
-    //Cancels the operation
-    @FXML
-    private void cancel() {
-        ((Stage) name.getScene().getWindow()).close();
-    }
+public class AddCustomerController extends CustomerCRUDController {
 
     //Creates the customer object
     @FXML
@@ -56,8 +26,6 @@ public class AddCustomerController {
         if(isNull() == true){
             return;
         }
-  
-
         Address customerAddress
                 = new Address(address.getText(), address2.getText(), postalCode.getText(), phone.getText(), city.getText(), country.getText());
 
@@ -68,25 +36,5 @@ public class AddCustomerController {
         ((Stage) name.getScene().getWindow()).close();
 
     }
-  
-        
-        //Checks for any null inputs 
-    private boolean isNull() {
-
-        for (Node node : addCustomerPane.getChildren()) {
-
-            if (node instanceof TextField) {
-
-                if (((TextField) node).getText().trim().isEmpty()) {
-                    CustomAlert.createAlert(Alert.AlertType.INFORMATION, (Stage) name.getScene().getWindow(), "Null error",
-                            "Please fill in all text fields ");
-                    return true;
-                }
-            }
-        }
-
-        return false;
-    }
-        
 
 }

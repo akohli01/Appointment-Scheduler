@@ -61,7 +61,7 @@ public class CustomerTabController {
 
         customerTableView.getItems().setAll(getCustomers());
 
-        CustomerListHelper.setObservableList(customers);
+        CustomerListHelper.setCustomerObservableList(customers);
 
         //Uses lambdas to handle changes to the customer list
         customers.addListener(new ListChangeListener<Customer>() {
@@ -77,7 +77,7 @@ public class CustomerTabController {
 
                         customerTableView.getItems().setAll(customers);
                     }
-                    CustomerListHelper.setObservableList(customers);
+                    CustomerListHelper.setCustomerObservableList(customers);
                 }
             }
         });
@@ -140,7 +140,7 @@ public class CustomerTabController {
 
         AddCustomerController childController = newScene.getSceneLoader().getController();
 
-        childController.addedCustomer().addListener((obs, oldCustomer, newCustomer) -> {
+        childController.getCustomerPOJO().addListener((obs, oldCustomer, newCustomer) -> {
 
             customers.add(addCustomerDatabase(newCustomer));
 
@@ -237,7 +237,7 @@ public class CustomerTabController {
 
             UpdateCustomerController childController = newScene.getSceneLoader().getController();
 
-            childController.changedCustomer().addListener((obs, oldCustomer, updatedCustomer) -> {
+            childController.getCustomerPOJO().addListener((obs, oldCustomer, updatedCustomer) -> {
 
                 customers.remove(selectedCustomer);
                 customers.add(updatedCustomer);

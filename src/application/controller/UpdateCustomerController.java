@@ -17,39 +17,9 @@ import javafx.stage.Stage;
  *
  * @author Amit Kohli
  */
-public class UpdateCustomerController {
-
-    @FXML
-    private TextField name;
-    @FXML
-    private TextField address;
-    @FXML
-    private TextField address2;
-    @FXML
-    private TextField postalCode;
-    @FXML
-    private TextField phone;
-    @FXML
-    private TextField city;
-    @FXML
-    private TextField country;
-    @FXML
-    private GridPane updateCustomerPane;
+public class UpdateCustomerController extends CustomerCRUDController{
 
     private int customerID;
-
-    private ReadOnlyObjectWrapper<Customer> changedCustomer = new ReadOnlyObjectWrapper<>();
-
-    //Gets the changed customer object
-    public ReadOnlyObjectProperty<Customer> changedCustomer() {
-        return changedCustomer.getReadOnlyProperty();
-    }
-
-    //Cancels the operation
-    @FXML
-    private void cancel() {
-        ((Stage) name.getScene().getWindow()).close();
-    }
 
     //Creates the updateCustomer
     @FXML
@@ -64,7 +34,7 @@ public class UpdateCustomerController {
 
         Customer newCustomer = new Customer(customerID, name.getText(), customerAddress);
 
-        changedCustomer.set(newCustomer);
+        customer.set(newCustomer);
 
         ((Stage) name.getScene().getWindow()).close();
 
@@ -82,25 +52,6 @@ public class UpdateCustomerController {
         country.setText(editCustomer.getCustomerAddress().getCountry());
 
         customerID = editCustomer.getCustomerID();
-
-    }
-
-    //Checks for any null inputs 
-    private boolean isNull() {
-
-        for (Node node : updateCustomerPane.getChildren()) {
-
-            if (node instanceof TextField) {
-
-                if (((TextField) node).getText().trim().isEmpty()) {
-                    CustomAlert.createAlert(Alert.AlertType.INFORMATION, (Stage) name.getScene().getWindow(), "Null error",
-                            "Please fill in all text fields or press cancel to discard any changes ");
-                    return true;
-                }
-            }
-        }
-
-        return false;
     }
 
 }

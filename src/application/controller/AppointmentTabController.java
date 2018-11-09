@@ -95,7 +95,7 @@ public class AppointmentTabController {
         // this.weeklyView.setUserData("weeklyView");
 
         //Listener that executes the appropriate function based upon the selected RadioButton
-        //Uses a lamdba expression to handle listener changes
+        //Uses a lambda expression to handle listener changes
         appointmentViewToggle.selectedToggleProperty().addListener((ObservableValue<? extends Toggle> ov, Toggle old_toggle, Toggle new_toggle) -> {
             switch (((RadioButton) appointmentViewToggle.getSelectedToggle()).getText()) {
                 case "All":
@@ -124,15 +124,12 @@ public class AppointmentTabController {
         //Add all appointments to the appointmentTableView
         appointmentTableView.getItems().setAll(getAppointments());
 
-        appointmentTableView.setOnMousePressed(new EventHandler<MouseEvent>() {
-            @Override
-            public void handle(MouseEvent event) {
-                if (event.isPrimaryButtonDown() && event.getClickCount() == 2) {
-                    
-                    showDetailedAppointmentInformation(appointmentTableView.getSelectionModel().getSelectedItem());
-                    
-                    //System.out.println(appointmentTableView.getSelectionModel().getSelectedItem());
-                }
+        appointmentTableView.setOnMousePressed(event -> {
+            if (event.isPrimaryButtonDown() && event.getClickCount() == 2) {
+
+                showDetailedAppointmentInformation(appointmentTableView.getSelectionModel().getSelectedItem());
+
+                //System.out.println(appointmentTableView.getSelectionModel().getSelectedItem());
             }
         });
 
@@ -155,8 +152,7 @@ public class AppointmentTabController {
 
         try {
             PreparedStatement prepStatement = dbConnection.getConn().prepareStatement(
-                    "SELECT appointmentId, title, description, location, contact, start, end, customerId "
-                    + "FROM appointment WHERE appointment.createdBy = ?;");
+                    "SELECT appointmentId, title, description, location, contact, start, end, customerId FROM appointment WHERE appointment.createdBy = ?;");
 
             prepStatement.setString(1, SchedulingApplication.getUsername());
 
@@ -246,7 +242,7 @@ public class AppointmentTabController {
 
         AddAppointmentController childController = newScene.getSceneLoader().getController();
 
-        childController.addedAppointment().addListener((obs, oldAppointment, newAppointment) -> {
+        childController.getAppointmentPOJO().addListener((obs, oldAppointment, newAppointment) -> {
 
             appointments.add(addAppointmentDatabase(newAppointment));
         });
@@ -319,7 +315,7 @@ public class AppointmentTabController {
 
             UpdateAppointmentController childController = newScene.getSceneLoader().getController();
 
-            childController.changedAppointment().addListener((obs, oldAppointment, updatedAppointment) -> {
+            childController.getAppointmentPOJO().addListener((obs, oldAppointment, updatedAppointment) -> {
 
                 appointments.remove(selectedAppointment);
                 appointments.add(updatedAppointment);

@@ -13,7 +13,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="addAppointmentPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="790.0" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.AddAppointmentController">
+<AnchorPane fx:id="appointmentPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="790.0" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.AddAppointmentController">
    <children>
       <Label layoutX="78.0" layoutY="84.0" prefHeight="18.0" prefWidth="82.0" text="Search: " />
       <TextField fx:id="filterField" layoutX="160.0" layoutY="80.0" prefHeight="26.0" prefWidth="164.0" />
