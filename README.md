@@ -39,10 +39,3 @@ Currently just me.
 
 Standard Github license. Feel free to view and fork this project for personal use.
 
-**About Me**
-
-My name is Amit Kohli, and I am currently a student at Western Governor's University. I am pursuing a Bachelor's in Science in Software Development. I welcome any feedback about any modifications that can be done to optimize this application.
-
-**Contact**
-
-amitkohli.official@gmail.com
